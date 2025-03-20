@@ -13,63 +13,128 @@
   <title>Frontend Mentor | Time tracking dashboard</title>
 </head>
 <body>
+  <main>
+  <div id="menu">
+    <div id="user">
+      <img src="./images/image-jeremy.png"
+            alt="Picture profile of Jeremy Robson"
+            height="100px" 
+            width="100px"
+            id="user-picture"
+      >  <!-- Verifier les dimensions-->
+      <div id="user-text">Report for</div>
+      <div id="user-name">Jeremy Robson</div>
+    </div>
+    <div id="time-menu">
+      <button>Daily</button>
+      <button>Weekly</button>
+      <button>Monthly</button>
+    </div>
+   </div>
 
-  Report for
-  Jeremy Robson
+   <div class="card" id="work">
+      <img  src="./images/icon-work.svg"
+            alt="Background image of the card"
+            height="100px"
+            width="100px"
+            class="card-img"           
+            >
+      <div class="card-title">Work</div>
+      <div class="card-time daily">5hrs</div> <!-- daily -->
+      <div class="card-time weekly">32hrs</div> <!-- weekly -->
+      <div class="card-time monthly">103hrs</div> <!-- monthly -->
+      <button>...</button>
+      <div class="previous-time daily">Previous - 7hrs</div>  <!-- daily -->
+      <div class="previous-time weekly">Previous - 36hrs</div>  <!-- weekly -->
+      <div class="previous-time monthly">Previous - 128hrs</div>  <!-- monthly -->
+   </div>
 
-  Daily
-  Weekly
-  Monthly
+   <div class="card" id="play">
+    <img  src="./images/icon-play.svg"
+          alt="Background image of the card"
+          height="100px"
+          width="100px"
+          class="card-img"           
+          >
+    <div class="card-title">Play</div>
+    <div class="card-time daily">1hr</div> <!-- daily -->
+    <div class="card-time weekly">10hrs</div> <!-- weekly -->
+    <div class="card-time monthly">23hrs</div> <!-- monthly -->
+    <button>...</button>
+    <div class="previous-time daily">Previous - 2hrs</div>  <!-- daily -->
+    <div class="previous-time weekly">Previous - 8hrs</div>  <!-- weekly -->
+    <div class="previous-time monthly">Previous - 29hrs</div>  <!-- monthly -->
+   </div>
 
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
+   <div class="card" id="study">
+    <img  src="./images/icon-study.svg"
+          alt="Background image of the card"
+          height="100px"
+          width="100px"
+          class="card-img"           
+          >
+    <div class="card-title">Study</div>
+    <div class="card-time daily">0hr</div> <!-- daily -->
+    <div class="card-time weekly">4hrs</div> <!-- weekly -->
+    <div class="card-time monthly">13hrs</div> <!-- monthly -->
+    <button>...</button>
+    <div class="previous-time daily">Previous - 1hr</div>  <!-- daily -->
+    <div class="previous-time weekly">Previous - 7hrs</div>  <!-- weekly -->
+    <div class="previous-time monthly">Previous - 19hrs</div>  <!-- monthly -->
+   </div>
 
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
+   <div class="card" id="exercise">
+    <img  src="./images/icon-exercise.svg"
+          alt="Background image of the card"
+          height="100px"
+          width="100px"
+          class="card-img"           
+          >
+    <div class="card-title">Exercise</div>
+    <div class="card-time daily">1hr</div> <!-- daily -->
+    <div class="card-time weekly">4hrs</div> <!-- weekly -->
+    <div class="card-time monthly">11hrs</div> <!-- monthly -->
+    <button>...</button>
+    <div class="previous-time daily">Previous - 1hr</div>  <!-- daily -->
+    <div class="previous-time weekly">Previous - 5hrs</div>  <!-- weekly -->
+    <div class="previous-time monthly">Previous - 18hrs</div>  <!-- monthly -->
+   </div>
 
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
+   <div class="card" id="social">
+    <img  src="./images/icon-social.svg"
+          alt="Background image of the card"
+          height="100px"
+          width="100px"
+          class="card-img"           
+          >
+    <div class="card-title">Social</div>
+    <div class="card-time daily">1hr</div> <!-- daily -->
+    <div class="card-time weekly">5hrs</div> <!-- weekly -->
+    <div class="card-time monthly">21hrs</div> <!-- monthly -->
+    <button>...</button>
+    <div class="previous-time daily">Previous - 3hr</div>  <!-- daily -->
+    <div class="previous-time weekly">Previous - 10hrs</div>  <!-- weekly -->
+    <div class="previous-time monthly">Previous - 23hrs</div>  <!-- monthly -->
+   </div>
 
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
+   <div class="card" id="self-care">
+    <img  src="./images/icon-self-care.svg"
+          alt="Background image of the card"
+          height="100px"
+          width="100px"
+          class="card-img"           
+          >
+    <div class="card-title">Self Care</div>
+    <div class="card-time daily">0hr</div> <!-- daily -->
+    <div class="card-time weekly">2hrs</div> <!-- weekly -->
+    <div class="card-time monthly">7hrs</div> <!-- monthly -->
+    <button>...</button>
+    <div class="previous-time daily">Previous - 1hr</div>  <!-- daily -->
+    <div class="previous-time weekly">Previous - 2hrs</div>  <!-- weekly -->
+    <div class="previous-time monthly">Previous - 11hrs</div>  <!-- monthly -->
+   </div>
 
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
-
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
-
-  
+</main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Sylvain Web</a>.

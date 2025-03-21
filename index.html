@@ -18,10 +18,9 @@
     <div id="user">
       <img src="./images/image-jeremy.png"
             alt="Picture profile of Jeremy Robson"
-            height="100px" 
-            width="100px"
-            id="user-picture"
-      >  <!-- Verifier les dimensions-->
+            height="50px" 
+            width="50px"
+            id="user-picture">
       <div id="user-text">Report for</div>
       <div id="user-name">Jeremy Robson</div>
     </div>
@@ -33,105 +32,136 @@
    </div>
 
    <div class="card" id="work">
-      <img  src="./images/icon-work.svg"
+      <div class="img-container" id="work-img-container">
+            <img  src="./images/icon-work.svg"
             alt="Background image of the card"
-            height="100px"
-            width="100px"
-            class="card-img"           
+            height="50px"
+            width="50px"
+            class="card-img"
+            id="work-img"
             >
-      <div class="card-title">Work</div>
-      <div class="card-time daily">5hrs</div> <!-- daily -->
-      <div class="card-time weekly">32hrs</div> <!-- weekly -->
-      <div class="card-time monthly">103hrs</div> <!-- monthly -->
-      <button>...</button>
-      <div class="previous-time daily">Previous - 7hrs</div>  <!-- daily -->
-      <div class="previous-time weekly">Previous - 36hrs</div>  <!-- weekly -->
-      <div class="previous-time monthly">Previous - 128hrs</div>  <!-- monthly -->
+      </div>
+
+      <div class="data-container">
+            <div class="card-title">Work</div>
+            <div class="card-time daily">5hrs</div> <!-- daily -->
+            <div class="card-time weekly">32hrs</div> <!-- weekly -->
+            <div class="card-time monthly">103hrs</div> <!-- monthly -->
+            <button class="card-button">...</button>
+            <div class="previous-time daily">Last Day - 7hrs</div>  <!-- daily -->
+            <div class="previous-time weekly">Last Week - 36hrs</div>  <!-- weekly -->
+            <div class="previous-time monthly">Last Month - 128hrs</div>  <!-- monthly -->
+      </div>
    </div>
 
    <div class="card" id="play">
-    <img  src="./images/icon-play.svg"
-          alt="Background image of the card"
-          height="100px"
-          width="100px"
-          class="card-img"           
-          >
-    <div class="card-title">Play</div>
-    <div class="card-time daily">1hr</div> <!-- daily -->
-    <div class="card-time weekly">10hrs</div> <!-- weekly -->
-    <div class="card-time monthly">23hrs</div> <!-- monthly -->
-    <button>...</button>
-    <div class="previous-time daily">Previous - 2hrs</div>  <!-- daily -->
-    <div class="previous-time weekly">Previous - 8hrs</div>  <!-- weekly -->
-    <div class="previous-time monthly">Previous - 29hrs</div>  <!-- monthly -->
+      <div class="img-container" id="play-img-container">
+            <img  src="./images/icon-play.svg"
+            alt="Background image of the card"
+            height="50px"
+            width="50px"
+            class="card-img"           
+            >
+      </div>
+ 
+      <div class="data-container">
+            <div class="card-title">Play</div>
+            <div class="card-time daily">1hr</div> <!-- daily -->
+            <div class="card-time weekly">10hrs</div> <!-- weekly -->
+            <div class="card-time monthly">23hrs</div> <!-- monthly -->
+            <button class="card-button">...</button>
+            <div class="previous-time daily">Last Day - 2hrs</div>  <!-- daily -->
+            <div class="previous-time weekly">Last Week - 8hrs</div>  <!-- weekly -->
+            <div class="previous-time monthly">Last Month - 29hrs</div>  <!-- monthly -->
+      </div>
    </div>
 
    <div class="card" id="study">
-    <img  src="./images/icon-study.svg"
-          alt="Background image of the card"
-          height="100px"
-          width="100px"
-          class="card-img"           
-          >
-    <div class="card-title">Study</div>
-    <div class="card-time daily">0hr</div> <!-- daily -->
-    <div class="card-time weekly">4hrs</div> <!-- weekly -->
-    <div class="card-time monthly">13hrs</div> <!-- monthly -->
-    <button>...</button>
-    <div class="previous-time daily">Previous - 1hr</div>  <!-- daily -->
-    <div class="previous-time weekly">Previous - 7hrs</div>  <!-- weekly -->
-    <div class="previous-time monthly">Previous - 19hrs</div>  <!-- monthly -->
+      <div class="img-container" id="study-img-container">
+            <img  src="./images/icon-study.svg"
+            alt="Background image of the card"
+            height="50px"
+            width="50px"
+            class="card-img"           
+            >
+      </div>
+
+    <div class="data-container">
+            <div class="card-title">Study</div>
+            <div class="card-time daily">0hr</div> <!-- daily -->
+            <div class="card-time weekly">4hrs</div> <!-- weekly -->
+            <div class="card-time monthly">13hrs</div> <!-- monthly -->
+            <button class="card-button">...</button>
+            <div class="previous-time daily">Last Day - 1hr</div>  <!-- daily -->
+            <div class="previous-time weekly">Last Week - 7hrs</div>  <!-- weekly -->
+            <div class="previous-time monthly">Last Month - 19hrs</div>  <!-- monthly -->
+    </div>
    </div>
 
    <div class="card" id="exercise">
-    <img  src="./images/icon-exercise.svg"
-          alt="Background image of the card"
-          height="100px"
-          width="100px"
-          class="card-img"           
-          >
-    <div class="card-title">Exercise</div>
-    <div class="card-time daily">1hr</div> <!-- daily -->
-    <div class="card-time weekly">4hrs</div> <!-- weekly -->
-    <div class="card-time monthly">11hrs</div> <!-- monthly -->
-    <button>...</button>
-    <div class="previous-time daily">Previous - 1hr</div>  <!-- daily -->
-    <div class="previous-time weekly">Previous - 5hrs</div>  <!-- weekly -->
-    <div class="previous-time monthly">Previous - 18hrs</div>  <!-- monthly -->
+      <div class="img-container" id="exercise-img-container">
+            <img  src="./images/icon-exercise.svg"
+            alt="Background image of the card"
+            height="50px"
+            width="50px"
+            class="card-img"           
+            >
+      </div>
+
+        <div class="data-container">
+            <div class="card-title">Exercise</div>
+            <div class="card-time daily">1hr</div> <!-- daily -->
+            <div class="card-time weekly">4hrs</div> <!-- weekly -->
+            <div class="card-time monthly">11hrs</div> <!-- monthly -->
+            <button class="card-button">...</button>
+            <div class="previous-time daily">Last Day - 1hr</div>  <!-- daily -->
+            <div class="previous-time weekly">Last Week - 5hrs</div>  <!-- weekly -->
+            <div class="previous-time monthly">Last Month - 18hrs</div>  <!-- monthly -->
+        </div>
    </div>
 
    <div class="card" id="social">
-    <img  src="./images/icon-social.svg"
-          alt="Background image of the card"
-          height="100px"
-          width="100px"
-          class="card-img"           
-          >
-    <div class="card-title">Social</div>
-    <div class="card-time daily">1hr</div> <!-- daily -->
-    <div class="card-time weekly">5hrs</div> <!-- weekly -->
-    <div class="card-time monthly">21hrs</div> <!-- monthly -->
-    <button>...</button>
-    <div class="previous-time daily">Previous - 3hr</div>  <!-- daily -->
-    <div class="previous-time weekly">Previous - 10hrs</div>  <!-- weekly -->
-    <div class="previous-time monthly">Previous - 23hrs</div>  <!-- monthly -->
+      <div class="img-container" id="social-img-container">
+            <img  src="./images/icon-social.svg"
+            alt="Background image of the card"
+            height="50px"
+            width="50px"
+            class="card-img"           
+            >
+      </div>
+
+      <div class="data-container">
+            <div class="card-title">Social</div>
+            <div class="card-time daily">1hr</div> <!-- daily -->
+            <div class="card-time weekly">5hrs</div> <!-- weekly -->
+            <div class="card-time monthly">21hrs</div> <!-- monthly -->
+            <button class="card-button">...</button>
+            <div class="previous-time daily">Last Day - 3hr</div>  <!-- daily -->
+            <div class="previous-time weekly">Last Week - 10hrs</div>  <!-- weekly -->
+            <div class="previous-time monthly">Last Month - 23hrs</div>  <!-- monthly -->
+      </div>
    </div>
 
    <div class="card" id="self-care">
-    <img  src="./images/icon-self-care.svg"
-          alt="Background image of the card"
-          height="100px"
-          width="100px"
-          class="card-img"           
-          >
-    <div class="card-title">Self Care</div>
-    <div class="card-time daily">0hr</div> <!-- daily -->
-    <div class="card-time weekly">2hrs</div> <!-- weekly -->
-    <div class="card-time monthly">7hrs</div> <!-- monthly -->
-    <button>...</button>
-    <div class="previous-time daily">Previous - 1hr</div>  <!-- daily -->
-    <div class="previous-time weekly">Previous - 2hrs</div>  <!-- weekly -->
-    <div class="previous-time monthly">Previous - 11hrs</div>  <!-- monthly -->
+      <div class="img-container" id="self-care-img-container">
+            <img  src="./images/icon-self-care.svg"
+            alt="Background image of the card"
+            height="50px"
+            width="50px"
+            class="card-img"           
+            >
+      </div>
+
+      <div class="data-container">
+      <div class="card-title">Self Care</div>
+      <div class="card-time daily">0hr</div> <!-- daily -->
+      <div class="card-time weekly">2hrs</div> <!-- weekly -->
+      <div class="card-time monthly">7hrs</div> <!-- monthly -->
+      <button class="card-button">...</button>
+      <div class="previous-time daily">Last Day - 1hr</div>  <!-- daily -->
+      <div class="previous-time weekly">Last Week - 2hrs</div>  <!-- weekly -->
+      <div class="previous-time monthly">Last Month - 11hrs</div>  <!-- monthly -->
+      </div>
    </div>
 
 </main>

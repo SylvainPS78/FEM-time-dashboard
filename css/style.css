@@ -54,7 +54,7 @@ main {
     grid-template-columns: 2;
     grid-template-columns: 2;
     background-color: var(--Blue);
-    z-index: 2;
+    z-index: 2;  /* UTILE ?*/
     border-radius: var(--border-radius);
     padding: 20px;
     align-items: center;
@@ -204,3 +204,101 @@ button:hover {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 100%, 78%); }
+
+@media (min-width : 1000px) {
+    body {
+        font-size:18px; /* for card titles (Work, Play, etc ...) */
+        height: 100vh;
+    }
+    
+    main {
+        min-width: 900px; /*Mettre un calc ? sur un width */
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr) ;
+        justify-items: center;
+        align-items: center;
+        gap:25px;
+    }
+    
+    #menu {
+        grid-column: 1;
+        grid-row: 1/3;
+        position:relative;
+        width: 200px; /* mettre un calc */
+        border-radius: var(--border-radius);
+        background-color: var(--Dark-blue) ;
+        align-self: stretch;
+    }
+    
+    
+    #user {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: var(--Blue);
+        z-index: 2; /* UTILE ?*/
+        border-radius: var(--border-radius);
+        padding: 20px;
+    }
+    
+    #user-picture {
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+    
+    #user-text {
+        font-size: 12px;
+        font-weight: 300;
+        align-self: flex-start;
+        margin-top:30px;
+    }
+    
+    #user-name {
+        font-weight: 400;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    
+    #time-menu {
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap:20px;
+        padding: 20px;
+        align-items: flex-start;
+    }
+            
+    .card {
+        position:relative;
+        width:200px; /* TBD */
+    }
+        
+    .data-container {
+        grid-template-rows: 3;
+    }
+    
+    .card-time {
+        font-size: 40px;
+        padding:10px 0px;
+    }
+    
+    .previous-time {
+        grid-column: 1;
+        grid-row: 3;
+        font-size: 12px;
+        align-self: center;
+        justify-self: flex-start;
+        font-weight: 500;
+    }
+    
+    .card-button {
+        grid-column: 2;
+        grid-row: 1;
+        font-size: 24px;
+        align-self:normal;
+        justify-self: end;
+        font-weight: 500;
+    }
+}

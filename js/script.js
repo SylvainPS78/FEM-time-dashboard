@@ -60,7 +60,7 @@ const populateTimes = (data) => {
     })
 }
 
-fetch('/data.json').then((response) => {
+fetch('./json/data.json').then((response) => {
     if(!response.ok) return console.log("Oops ! Couldn't fetch data.json");
     return response.json().then((data) => {populateTimes(data)});
 })

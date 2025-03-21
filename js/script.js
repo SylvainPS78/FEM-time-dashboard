@@ -17,7 +17,6 @@ dailyBtn.addEventListener("click", () => {
     })
 })
 
-
 weeklyBtn.addEventListener("click", () => {
     dailyValues.forEach(element => {
         element.style.display = "none";
